@@ -1,0 +1,5 @@
+Here are some queries for {task}:
+'''
+{queries}
+'''
+Now please help me to generate instruction queries for {task} with the same format.

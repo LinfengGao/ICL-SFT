@@ -1,0 +1,4 @@
+Now, please judge whether the two sentences are semantically equivalent.
+Sentence 1: {sentence1}
+Sentence 2: {sentence2}
+{label}
