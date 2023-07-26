@@ -4,7 +4,7 @@ task = "Natural Language Inference"
 queries = ""
 label_map = {0: "Equivalent.", 1: "Not equivalent."}
 
-data = datasets.load_dataset("glue", name="mrpc", cache_dir="cache", split="train")
+data = datasets.load_dataset("glue", name="mrpc", cache_dir="/home/glf/data/cache", split="train")
 
 for i in range(10):
     with open("./template/MRPC_template", "r", encoding="utf-8") as mrpc_template_file:
